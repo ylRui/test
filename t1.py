@@ -8,6 +8,6 @@ def calculate_circle_area(radius):
     """
     return math.pi * radius * radius
 
-radius = (input("请输入园的半径："))
+radius = float(input("请输入园的半径："))
 area = calculate_circle_area(radius)
 print("园的面积为：", area)
